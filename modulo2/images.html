@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exploring Images</title>
 </head>
+
 <body>
+
+   
+
     <h1>Using Images on Your Page</h1>
     <h2>Load our first image</h2>
     <img src="img/vinicius.png" alt="Vinicius de Morais" height=300 width=200>
     <img src="img/sugar-beach.jpg" alt="Praia agradável de Sugar Beach" title="Sugar Beach">
     <h2>Changing the size of an image</h2>
 
-    <img src="img/beach.jpg" alt="Praia maneira"  width=300 title="Praia maneiras">
+    <header>
 
-    <h2>Remote Image</h2>
-    <img src="https://www.eveo.com.br/blog/wp-content/uploads/2018/09/231231-x-melhores-sites-de-ti-para-voce-acompanhar-as-tendencias-do-mercado.jpg" alt="Image from net">
+            <details>
+                <summary>
+                    <p id="sumary">Sumary Link</p>
+                </summary>
+                <ul>
+                    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                    <li><a href="index.html" target="_self">index.html</a></li>
+                    <li><a href="#anchor">anchor</a></li>
+                    <li><a href="mailto:joao.ferreiradesouza@hotmail.com">Mail To</a></li>
+                </ul>
+          
+            </details>
+    
+        </header>
 
+    <img src="img/beach.jpg" alt="Praia maneira" width=300 title="Praia maneiras">
+
+    <h2 id="anchor">Remote Image</h2>
+    <img src="https://www.eveo.com.br/blog/wp-content/uploads/2018/09/231231-x-melhores-sites-de-ti-para-voce-acompanhar-as-tendencias-do-mercado.jpg"
+        alt="Image from net">
+    <a href="#sumary">
+        <p>Return</p>
+    </a>
 </body>
+
 </html>
